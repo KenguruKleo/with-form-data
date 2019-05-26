@@ -3,7 +3,7 @@ import cn from 'classnames';
 
 const validateField = (field, data) => {
     let errorText = undefined;
-    const foundError = field.validators
+    const foundError = (field.validators || [])
         .find(validator => {
             errorText = validator({ value: field.value, field, data });
             return !!errorText;

@@ -1,6 +1,6 @@
 {
   "name": "with-form-data",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Describe form in declarative way. Handle change fields data, check errors and post data action",
   "main": "dist/index.js",
   "files": [

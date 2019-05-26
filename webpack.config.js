@@ -21,7 +21,6 @@ module.exports = {
   },
   externals: {
     'react': 'commonjs react',
-    'prop-types': 'commonjs prop-types',
-    'react-redux': 'commonjs react-redux'
+    'prop-types': 'commonjs prop-types'
   }
 };

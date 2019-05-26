@@ -1,0 +1,7 @@
+.idea
+.ideaDataSources
+.DS_Store
+.settings
+.coverage
+/node_modules
+/build

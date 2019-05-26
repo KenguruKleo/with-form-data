@@ -1,0 +1,53 @@
+{
+  "name": "with-form-data",
+  "version": "1.0.1",
+  "description": "Describe form in declarative way. Handle change fields data, check errors and post data action",
+  "main": "dist/index.js",
+  "files": [
+    "dist/index.js"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8"
+  },
+  "scripts": {
+    "lint": "eslint || true",
+    "prebuild": "rimraf dist",
+    "prepare": "npm run build",
+    "test": "node test || true",
+    "start": "webpack --watch",
+    "build": "rimraf dist && webpack -p"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KenguruKleo/with-form-data.git"
+  },
+  "keywords": [
+    "higher order component",
+    "HOC",
+    "Form"
+  ],
+  "author": "Konstantin Yemelianov",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/KenguruKleo/with-form-data/issues"
+  },
+  "homepage": "https://github.com/KenguruKleo/with-form-data#readme",
+  "devDependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-env": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.23.0",
+    "babel-preset-stage-1": "^6.24.1",
+    "bootstrap": "^4.0.0",
+    "cross-env": "^5.1",
+    "rimraf": "^2.6.3",
+    "webpack-cli": "^3.2.3",
+    "webpack": "^4.29.6"
+  },
+  "dependencies": {
+    "classnames": "^2.2.6"
+  }
+}
